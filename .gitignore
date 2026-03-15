@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+
+# Environment
+.env
+
+# Runtime data
+data/reelforge.db
+data/library/
+data/projects/
+data/thumbnails/
+!data/**/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Internal context (LLM use only)
+.context/
+.claude/
+
+# Test artifacts
+test-screenshots/
+
+# Internal docs
+CLAUDE.md
+FRONTEND_ROADMAP.md
+FRONTEND_TODO.md
+Tasks.md
+ideas.md

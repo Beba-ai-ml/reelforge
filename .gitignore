@@ -17,6 +17,8 @@ dist/
 
 # Runtime data
 data/reelforge.db
+data/reelforge.db-shm
+data/reelforge.db-wal
 data/library/
 data/projects/
 data/thumbnails/
@@ -46,3 +48,6 @@ FRONTEND_ROADMAP.md
 FRONTEND_TODO.md
 Tasks.md
 ideas.md
+
+# Vite scaffold boilerplate
+frontend/README.md
